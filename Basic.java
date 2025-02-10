@@ -151,6 +151,29 @@ public class Basic{
         }
         printarray(arr);
     }
+    public static void printpairs(int arr[]){
+        for(int i=0;i<arr.length;i++){
+            
+            for(int j=i+1;j<arr.length;j++){
+                System.out.print("(" + arr[i] + "," + arr[j] + ")");
+            }
+            System.out.println();
+        }
+        
+    }
+    public static void subarray(int arr[]){
+        for(int i=0;i<arr.length;i++){
+            int start=i;
+            for(int j=i;j<arr.length;j++){
+                int end=j;
+                for(int k=start;k<=end;k++){
+                    System.out.print(arr[k]);
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
     public static void printarray(int arr[]){
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
@@ -190,6 +213,8 @@ public class Basic{
       else{
         System.out.println("Element not found in the array");
       }*/
-     reversearray(arr);
+     //reversearray(arr);
+     printpairs(arr);
+     subarray(arr);
     }
 }

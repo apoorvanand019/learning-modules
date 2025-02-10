@@ -1,0 +1,119 @@
+html,body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.Button{
+    color: rgb(0, 28, 28);
+    background-color: brown;
+    padding: 15px 30px; /* Increase padding for a larger button */
+    font-size: 18px; /* Increase font size for larger text */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    border: none; /* Optional: Remove border */
+    
+}
+.Button:hover {
+    background-color: darkorange; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+.main{
+    font-size: 50px;
+}
+span{
+    color: blue;
+}
+div{
+    color:blueviolet;
+}
+.header{
+    color: darkgrey;
+    height: 100px;
+    border: 2px solid blue;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.header img {
+    margin-right: auto; /* Pushes the image to the left */
+    
+}
+
+.header h5 {
+    margin: 0 10px; /* Adds some space between the links */
+}
+
+.header a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits the color from the parent element */
+}
+
+main {
+    border: 2px solid rebeccapurple;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    flex-grow: 1; /* Allows the main section to grow and fill available space */
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    border: 2px solid rebeccapurple;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    
+    justify-content: space-between;
+    
+    font-size: 30px;
+    
+    background-color: aquamarine;
+}
+
+
+main{
+    border: 2px solid rebeccapurple;
+    margin-top: 5px;
+    padding-bottom: 10px;
+   background-color: aliceblue;
+    padding-left: 10px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+footer{
+    border: 2px solid rebeccapurple;
+    margin-top: 5px;
+    padding-bottom: 10px;
+   background-color: aliceblue;
+    padding-left: 10px;
+    width: 100%;
+}
